@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
-import gocart from '../assets/images/GoCart.png';
-import gallery from '../assets/images/image_gallery.png';
-import todo from '../assets/images/todo_app.png';
-import weather from '../assets/images/weather.png';
+import { ExternalLink, } from 'lucide-react';
+// import gocart from '../assets/images/GoCart.png';
+// import gallery from '../assets/images/image_gallery.png';
+// import todo from '../assets/images/todo_app.png';
+// import weather from '../assets/images/weather.png';
 
 
 // const projects = [
