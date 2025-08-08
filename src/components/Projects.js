@@ -6,62 +6,62 @@ import todo from '../assets/images/todo_app.png';
 import weather from '../assets/images/weather.png';
 
 
-const projects = [
-  {
-    title: 'GoCart',
-    description:
-      'Built a modern e-commerce platform using React with dynamic listings, shopping cart, and seamless API integration.',
-    image: gocart,
-    tags: ['React', 'Tailwind'],
-    github: 'https://github.com/HussainShafayet/ecom',
-    demo: 'https://drive.google.com/file/d/1jOW66tm644Ccgdb7saQOlccDAQQSlNLn/view?usp=sharing',
-  },
-  {
-    title: 'Image Gallery',
-    description:
-      'Simplified image management – upload, delete, and sort effortlessly for a clean and organized UI.',
-    image: gallery,
-    tags: ['React', 'Django', 'SQLite'],
-    github: 'https://github.com/HussainShafayet/image-gallery/tree/master',
-    demo: 'https://hussainshafayet.github.io/image-gallery/',
-  },
-  {
-    title: 'Todo App',
-    description:
-      'A modern, responsive Todo app built with React, featuring drag-and-drop, theming, and real-time search.',
-    image: todo,
-    tags: ['React', 'Tailwind'],
-    github: 'https://github.com/HussainShafayet/todo',
-    demo: "https://todo-app-91.netlify.app/",
-  },
-   {
-    title: 'Weather App',
-    description:
-      'A React app displaying current weather and 5-day forecast using OpenWeather API, Axios, and Tailwind CSS. Shows temperature, humidity, wind, and weather icons with a clean, responsive design.',
-    image: weather,
-    tags: ['React', 'Tailwind'],
-    github: 'https://github.com/HussainShafayet/weatherapp',
-    demo: 'https://weatherdekhben.netlify.app/',
-  },
-  {
-    title: 'Zerocode',
-    description:
-      'Accounting app with real-time updates, API integration, and modular UI using Ember.js and WebSockets.',
-    image: '/project.avif', // Put this in your public folder
-    tags: ['Ember.js', 'Ember Data', 'WebSockets'],
-    github: 'https://github.com/user/Zerocode',
-    demo: '',
-  },
-  {
-    title: 'HR System',
-    description:
-      'HR web app built with Ember.js, focusing on real-time updates and high-performance modular components.',
-    image: '/project.avif',
-    tags: ['Ember.js', 'WebSockets'],
-    github: 'https://github.com/user/hr',
-    demo: '',
-  },
-];
+// const projects = [
+//   {
+//     title: 'GoCart',
+//     description:
+//       'Built a modern e-commerce platform using React with dynamic listings, shopping cart, and seamless API integration.',
+//     image: gocart,
+//     tags: ['React', 'Tailwind'],
+//     github: 'https://github.com/HussainShafayet/ecom',
+//     demo: 'https://drive.google.com/file/d/1jOW66tm644Ccgdb7saQOlccDAQQSlNLn/view?usp=sharing',
+//   },
+//   {
+//     title: 'Image Gallery',
+//     description:
+//       'Simplified image management – upload, delete, and sort effortlessly for a clean and organized UI.',
+//     image: gallery,
+//     tags: ['React', 'Django', 'SQLite'],
+//     github: 'https://github.com/HussainShafayet/image-gallery/tree/master',
+//     demo: 'https://hussainshafayet.github.io/image-gallery/',
+//   },
+//   {
+//     title: 'Todo App',
+//     description:
+//       'A modern, responsive Todo app built with React, featuring drag-and-drop, theming, and real-time search.',
+//     image: todo,
+//     tags: ['React', 'Tailwind'],
+//     github: 'https://github.com/HussainShafayet/todo',
+//     demo: "https://todo-app-91.netlify.app/",
+//   },
+//    {
+//     title: 'Weather App',
+//     description:
+//       'A React app displaying current weather and 5-day forecast using OpenWeather API, Axios, and Tailwind CSS. Shows temperature, humidity, wind, and weather icons with a clean, responsive design.',
+//     image: weather,
+//     tags: ['React', 'Tailwind'],
+//     github: 'https://github.com/HussainShafayet/weatherapp',
+//     demo: 'https://weatherdekhben.netlify.app/',
+//   },
+//   {
+//     title: 'Zerocode',
+//     description:
+//       'Accounting app with real-time updates, API integration, and modular UI using Ember.js and WebSockets.',
+//     image: '/project.avif', // Put this in your public folder
+//     tags: ['Ember.js', 'Ember Data', 'WebSockets'],
+//     github: 'https://github.com/user/Zerocode',
+//     demo: '',
+//   },
+//   {
+//     title: 'HR System',
+//     description:
+//       'HR web app built with Ember.js, focusing on real-time updates and high-performance modular components.',
+//     image: '/project.avif',
+//     tags: ['Ember.js', 'WebSockets'],
+//     github: 'https://github.com/user/hr',
+//     demo: '',
+//   },
+// ];
 
 const ProjectShowcase = () => {
   return (
