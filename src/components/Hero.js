@@ -67,14 +67,18 @@ const Hero = () => {
             <em> Lecturer & Researcher</em>
           </motion.p>
           <motion.p
-            variants={fadeInUp}
-            custom={0.6}
-            className="text-base leading-relaxed text-gray-700 dark:text-gray-300"
-          >
-            Ph.D. aspirant in Computer Science, blending 4+ years of teaching and research with a passion for <strong>ML, Blockchain, NLP, and LLM</strong> innovation.
-            <br /><br />
-            <span className="font-semibold text-blue-600 dark:text-blue-400">Let’s build something exceptional! </span>
-          </motion.p>
+  variants={fadeInUp}
+  custom={0.6}
+  className="text-base leading-relaxed text-gray-700 dark:text-gray-300 text-justify"
+>
+  Ph.D. aspirant in Computer Science, blending 4+ years of teaching and research 
+  with a passion for <strong>ML, Blockchain, NLP, and LLM</strong> innovation.
+  <br /><br />
+  <span className="font-semibold text-blue-600 dark:text-blue-400">
+    Let’s build something exceptional!
+  </span>
+</motion.p>
+
 
           <motion.a
             variants={fadeInUp}

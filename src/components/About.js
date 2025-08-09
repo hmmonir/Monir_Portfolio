@@ -79,17 +79,20 @@ const About = () => {
             Beyond teaching & research, I enjoy <em>travelng and reading </em> — bringing creativity to every aspect of my life.
           </p> */}
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
-  I earned my Bachelor’s in <strong>Computer Science and Engineering</strong> 
+  I earned my Bachelor’s in <strong>Computer Science and Engineering </strong> 
   from <strong>Shahjalal University of Science and Technology (SUST), Bangladesh</strong>, 
   laying the foundation for my journey toward a <strong>Ph.D.</strong> in 
   <strong> Computer Science</strong>.
 </p>
 
-          <p className="text-lg font-semibold text-blue-700 dark:text-blue-400">
-            RESEARCH INTERESTS: <span className="font-normal text-gray-800 dark:text-gray-200">
-              Machine Learning (ML), Blockchain Technology (BT), Natural Language Processing (NLP), Large Language Models (LLM).
-            </span>
-          </p>
+          <p className="text-lg font-semibold text-blue-700 dark:text-blue-400 text-justify">
+  RESEARCH INTERESTS: 
+  <span className="font-normal text-gray-800 dark:text-gray-200">
+    Machine Learning (ML), Blockchain Technology (BT), Natural Language Processing (NLP), 
+    Large Language Models (LLM).
+  </span>
+</p>
+
         </div>
 
         <div className="flex-1 max-w-xl relative" id="timeline">
