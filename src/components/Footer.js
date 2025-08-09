@@ -13,7 +13,7 @@ const Footer = () => {
             Md. Monir Hossain
           </h2>
           <p className="text-sm leading-relaxed">
-            Showcasing passion, projects, and performance.<br />
+            Showcasing passion, research, and performance.<br />
             Crafted with care using React & Tailwind.
           </p>
         </div>
