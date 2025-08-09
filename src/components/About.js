@@ -86,13 +86,13 @@ const About = () => {
 </p>
 
           <p className="text-lg font-semibold text-blue-700 dark:text-blue-400 text-justify">
-  RESEARCH&nbsp;INTERESTS: 
-   <span className="font-normal text-gray-800 dark:text-gray-200 text-justify">
-  &ensp;Machine Learning (ML), Blockchain Technology (BT), 
-  Natural Language Processing (NLP), Large Language Models (LLM).
-</span>
-
+  RESEARCH&nbsp;INTERESTS:
+  <span className="font-normal text-gray-800 dark:text-gray-200 text-justify block">
+    Machine Learning (ML), Blockchain Technology (BT), 
+    Natural Language Processing (NLP), Large Language Models (LLM).
+  </span>
 </p>
+
 
         </div>
 
