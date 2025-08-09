@@ -32,12 +32,12 @@ const categories = {
     { name: 'C/C++', icon: <FileCode size={20} /> },
     { name: 'SQL', icon: <Braces size={20} /> },
     { name: 'MySQL', icon: <Network size={20} />},
-    {  name: 'Keras', icon: <Code size={20} /> },
   ],
   Frameworks: [
     { name: 'NLP', icon: <Paintbrush size={20} /> },
     { name: 'LLM', icon: <GitBranch size={20} /> },
     { name: 'Tensorflow', icon: <Zap size={20} /> },
+    {  name: 'Keras', icon: <Code size={20} /> },
   ],
   Utilities: [
     { name: 'Git & Github', icon: <GitBranch size={20} /> },
