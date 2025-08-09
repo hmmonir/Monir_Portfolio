@@ -87,8 +87,8 @@ const About = () => {
 
           <p className="text-lg font-semibold text-blue-700 dark:text-blue-400 text-justify">
   RESEARCH INTERESTS: 
-  <span className="font-normal text-gray-800 dark:text-gray-200">
-    Machine Learning (ML), Blockchain Technology (BT), Natural Language Processing (NLP), 
+   <span className="font-normal text-gray-800 dark:text-gray-200">
+   &ensp;Machine Learning (ML), Blockchain Technology (BT), Natural Language Processing (NLP), 
     Large Language Models (LLM).
   </span>
 </p>
