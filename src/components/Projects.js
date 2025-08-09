@@ -74,22 +74,22 @@ const ProjectShowcase = () => {
     <div className="space-y-8">
       {[
         {
-          title: "Word Completion and Sequence Prediction in Bangla Language Using Trie and a Hybrid Approach of Sequential LSTM and N-gram",
-          conference: "2nd International Conference on Advanced Information and Communication Technology (ICAICT), 2020",
-          authors: "Soumik Sarker, Md Ekramul Islam, Jilur Rahman Saurav, Md Mahadi Hasan Nahid",
-          link: "#"
+          title: " Empowering Democracy: Unveiling the Brilliance of Blockchain Technology in Smart and Safe E-Voting Systems",
+          conference: "3rd International Conference on Computing Advancements (ICCA 2024), ACM, New York, USA",
+          authors: "Md. Monir Hossain, Saber Al Sakib, Md. Rakib, Nilay Shuvra Das, Sanjoy Kanti Talukder",
+          link: "https://dl.acm.org/doi/10.1145/3723178.3723191"
         },
         {
-          title: "Bangla Handwritten Character Recognition Using Deep Convolutional Autoencoder Neural Network",
-          conference: "2nd International Conference on Advanced Information and Communication Technology (ICAICT), 2020",
-          authors: "Md Ali Azad, Hijam Sushil Singha, Md Mahadi Hasan Nahid",
-          link: "#"
+          title: "Blockchain Based Certificate Verification for Employee Hiring & Admission System",
+          conference: "26th International Conference on Computer and Information Technology (ICCIT), 2023",
+          authors: "Saber Al Sakib, Md Rakib, Md. Monir Hossain, Mohammad Shamsul Islam, Biozed Rahman Khan, Md Suman Reza",
+          link: "https://ieeexplore.ieee.org/abstract/document/10441170"
         },
         {
-          title: "Bengali Question Answering System for Factoid Questions: A statistical approach",
-          conference: "International Conference on Bangla Speech and Language Processing (ICBSLP), 27-28 September, 2019",
-          authors: "Sourav Sarker, Syeda Tamanna Alam Monisha, Md Mahadi Hasan Nahid",
-          link: "#"
+          title: "Blockchain-based integrated application for forged elimination of hiring system using hyperledger fabric 2. x",
+          conference: "25th International Conference on Computer and Information Technology (ICCIT), 2022",
+          authors: "Ruhul Amin, Mohammad Shamsul Islam, Redwanul Islam Arif, Ashraful Islam, Md Monir Hossain",
+          link: "https://ieeexplore.ieee.org/abstract/document/10055308"
         }
       ].map((pub, idx) => (
         <motion.div

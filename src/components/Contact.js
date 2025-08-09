@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Mail, Phone, MapPin, Linkedin, Twitter, Github, Facebook, 
+  Mail, Phone, MapPin, Linkedin, Github, Facebook, 
   CheckCircle, AlertCircle,
 } from "lucide-react";
 
@@ -44,7 +44,7 @@ const Contact = () => {
         formData.append(key, value)
       );
 
-      const res = await fetch("https://formspree.io/f/xkgzplko", {
+      const res = await fetch("https://formspree.io/f/xwpbqdvk", {
         method: "POST",
         body: formData,
         headers: { Accept: "application/json" },
@@ -101,7 +101,7 @@ const Contact = () => {
                 icon: <Phone className="text-indigo-600" />,
                 label: "Phone",
                 value: (
-                  <a href="tel:+8801925890091" className="hover:underline">
+                  <a href="tel:+8801521498803" className="hover:underline">
                     +8801521498803
                   </a>
                 ),
@@ -125,7 +125,7 @@ const Contact = () => {
           <div className="flex gap-6 text-indigo-600 dark:text-indigo-300">
             {[
               { href: "https://www.linkedin.com/in/md-monir-hossain-7a169b18b/", icon: <Linkedin size={26} />, label: "LinkedIn" },
-              { href: "https://x.com/imShafayet09", icon: <Twitter size={26} />, label: "Twitter" },
+              // { href: "https://x.com/imShafayet09", icon: <Twitter size={26} />, label: "Twitter" },
               { href: "https://github.com/hmmonir", icon: <Github size={26} />, label: "GitHub" },
               { href: "https://www.facebook.com/mdmonir.hossain.714", icon: <Facebook size={26} />, label: "Facebook" },
             ].map(({ href, icon, label }) => (

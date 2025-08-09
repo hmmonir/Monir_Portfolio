@@ -1,4 +1,4 @@
-import { Facebook, Github, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Github, Linkedin, } from "lucide-react";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -13,7 +13,7 @@ const Footer = () => {
             Md. Monir Hossain
           </h2>
           <p className="text-sm leading-relaxed">
-            Showcasing passion, research, and performance.<br />
+            Showcasing passion, projects, and performance.<br />
             Crafted with care using React & Tailwind.
           </p>
         </div>
@@ -50,11 +50,11 @@ const Footer = () => {
                   icon: Linkedin,
                   label: "LinkedIn",
                 },
-                {
-                  href: "https://x.com/imShafayet09",
-                  icon: Twitter,
-                  label: "Twitter",
-                },
+                // {
+                //   href: "https://x.com/imShafayet09",
+                //   icon: Twitter,
+                //   label: "Twitter",
+                // },
                 {
                   href: "https://github.com/hmmonir",
                   icon: Github,

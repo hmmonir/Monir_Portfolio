@@ -4,7 +4,7 @@ A modern, responsive, and animated portfolio website built with **React 19**, **
 
 ## 🔗 Live Demo
 
-👉 [Link](https://shafayethussain.netlify.app/)
+👉 [Link](https://mmhmonir.netlify.app/) 
 
 ---
 
@@ -74,5 +74,5 @@ npm run build
 This project is licensed under the [MIT License](LICENSE).
 
 ## ✍️ Author
-Created and maintained by Shafayet Hussain.  
+Created and maintained by Md. Monir Hossain.  
 Feel free to connect or reach out for feedback and collaboration!

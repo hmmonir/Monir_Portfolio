@@ -27,13 +27,13 @@ const timelineData = [
     company: 'Shahjalal University of Science and Technology (SUST), Bangladesh.',
     description:
       'Completed Course:  Natural Language Processing(NLP) & Software Quality Assuarance.',
-    icon: <Briefcase size={22} />,
+    icon: <BookOpen size={22} />,
     type: 'Education',
   },
   {
     year: '2015 – 2020',
     title: 'B.Sc (Engg.) in Computer Science & Engineering',
-    company: 'Sylhet Engineering College affiliated with Shahjalal University of Science and Technology (SUST), Bangladesh',
+    company: 'Shahjalal University of Science and Technology (SUST), Bangladesh',
     description:
       'Graduated with a strong foundation in research, data structures, algorithms, and Machine Learning.',
     icon: <BookOpen size={22} />,
@@ -63,14 +63,14 @@ const About = () => {
             I’m <strong>Md. Monir Hossain</strong>, Aspiring to pursue a Ph.D. in Computer Science with a focus on Machine Learning, Blockchain Technology,
 Natural Language Processing (NLP), and Large Language Models (LLMs). Committed to impactful research and
 academic excellence with over four years of teaching and research experience.
-            My specialty is <strong>React, Next.js, and Ember.js</strong> — My research interests span across Natural Language Processing, Information Retrieval, and Large Language Models. I am passionate about exploring innovative approaches to enhance language understanding and retrieval systems.
+            My specialty is <strong>Teacher, Researcher, Programmer</strong> —I am passionate about exploring innovative approaches to enhance language understanding and retrieval systems.
           </p>
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-            Beyond code, I enjoy <em>hiking and photography</em> — bringing creativity to every aspect of my life.
+            Beyond teaching & research, I enjoy <em>travelng and reading </em> — bringing creativity to every aspect of my life.
           </p>
           <p className="text-lg font-semibold text-blue-700 dark:text-blue-400">
-            Core Skills: <span className="font-normal text-gray-800 dark:text-gray-200">
-              JavaScript, React, Next.js, Ember.js, CSS Modules, Tailwind
+            RESEARCH INTERESTS: <span className="font-normal text-gray-800 dark:text-gray-200">
+              Machine Learning (ML), Blockchain Technology (BT), Natural Language Processing (NLP), Large Language Models (LLM)
             </span>
           </p>
         </div>
