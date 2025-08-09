@@ -44,7 +44,7 @@ const Contact = () => {
         formData.append(key, value)
       );
 
-      const res = await fetch("https://formspree.io/f/xwpbqdvk", {
+      const res = await fetch("https://formspree.io/f/xkgzplko", {
         method: "POST",
         body: formData,
         headers: { Accept: "application/json" },
