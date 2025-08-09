@@ -27,19 +27,19 @@ const categories = {
     { name: 'Git & Github', icon: <GitBranch size={20} /> },
     { name: 'PyTorch', icon: <Wrench size={20} /> },
   ],
-  Frontend: [
+  Languages: [
     { name: 'Python', icon: <FileCode size={20} /> },
     { name: 'C/C++', icon: <FileCode size={20} /> },
     { name: 'SQL', icon: <Braces size={20} /> },
     { name: 'MySQL', icon: <Network size={20} />},
     {  name: 'Keras', icon: <Code size={20} /> },
   ],
-  Backend: [
+  Frameworks: [
     { name: 'NLP', icon: <Paintbrush size={20} /> },
     { name: 'LLM', icon: <GitBranch size={20} /> },
     { name: 'Tensorflow', icon: <Zap size={20} /> },
   ],
-  Tools: [
+  Utilities: [
     { name: 'Git & Github', icon: <GitBranch size={20} /> },
     { name: 'Data Analytics', icon: <Atom size={20} />},
   ],
