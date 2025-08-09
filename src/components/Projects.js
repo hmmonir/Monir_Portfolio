@@ -75,19 +75,19 @@ const ProjectShowcase = () => {
       {[
         {
           title: " Empowering Democracy: Unveiling the Brilliance of Blockchain Technology in Smart and Safe E-Voting Systems",
-          conference: "3rd International Conference on Computing Advancements (ICCA 2024), ACM, New York, USA",
+          conference: <em>3rd International Conference on Computing Advancements (ICCA 2024), ACM, New York, USA</em>,
           authors: "Md. Monir Hossain, Saber Al Sakib, Md. Rakib, Nilay Shuvra Das, Sanjoy Kanti Talukder",
           link: "https://dl.acm.org/doi/10.1145/3723178.3723191"
         },
         {
           title: "Blockchain Based Certificate Verification for Employee Hiring & Admission System",
-          conference: "26th International Conference on Computer and Information Technology (ICCIT), 2023",
+          conference: <em>26th International Conference on Computer and Information Technology (ICCIT), 2023</em>,
           authors: "Saber Al Sakib, Md Rakib, Md. Monir Hossain, Mohammad Shamsul Islam, Biozed Rahman Khan, Md Suman Reza",
           link: "https://ieeexplore.ieee.org/abstract/document/10441170"
         },
         {
           title: "Blockchain-based integrated application for forged elimination of hiring system using hyperledger fabric 2. x",
-          conference: "25th International Conference on Computer and Information Technology (ICCIT), 2022",
+          conference: <em>25th International Conference on Computer and Information Technology (ICCIT), 2022</em>,
           authors: "Ruhul Amin, Mohammad Shamsul Islam, Redwanul Islam Arif, Ashraful Islam, Md Monir Hossain",
           link: "https://ieeexplore.ieee.org/abstract/document/10055308"
         }

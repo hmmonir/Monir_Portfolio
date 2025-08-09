@@ -13,14 +13,16 @@ const timelineData = [
     type: 'work',
   },
   {
-    year: 'Sept 2021 – Present',
-    title: 'Faculty Member',
-    company: 'Dept. of CST, IBIT, Sylhet, Bangladesh.',
-    description:
-      'Core Courses- OOP, Data Structures & Algorithm, DBMS, Computer Network, Discrete Mathematics.',
-    icon: <Briefcase size={22} />,
-    type: 'work',
-  },
+  year: 'Sept 2021 – Present',
+  title: 'Faculty Member',
+  company: 'Dept. of CST, IBIT, Sylhet, Bangladesh',
+  website: 'https://www.ibitsylhet.edu.bd', // added website field
+  description:
+    'Core Courses – OOP, Data Structures & Algorithm, DBMS, Computer Network, Discrete Mathematics.',
+  icon: <Briefcase size={22} />,
+  type: 'work',
+},
+
   {
     year: 'Jun 2022 – Present',
     title: 'M.Sc (Engg.) in Computer Science & Engineering',
@@ -60,17 +62,18 @@ const About = () => {
         <div className="flex-1 max-w-xl space-y-6">
           <h2 className="text-4xl font-bold text-blue-700 dark:text-blue-400">About Me</h2>
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-            I’m <strong>Md. Monir Hossain</strong>, Aspiring to pursue a Ph.D. in Computer Science with a focus on Machine Learning, Blockchain Technology,
-Natural Language Processing (NLP), and Large Language Models (LLMs). Committed to impactful research and
-academic excellence with over four years of teaching and research experience.
-            My specialty is <strong>Teacher, Researcher, Programmer</strong> —I am passionate about exploring innovative approaches to enhance language understanding and retrieval systems.
+            I’m <strong>Md. Monir Hossain</strong>,— a curious mind at the intersection of Machine Learning, Blockchain, NLP, and LLMs. With over four years in academia as a <strong>educator</strong>, <strong>researcher</strong>, and <strong>programmer</strong>, I’m on a mission to craft intelligent systems that make language truly understood. I am passionate about exploring innovative approaches to enhance language understanding and retrieval systems. When I’m not diving into code or research, you’ll find me traveling the world or getting lost in a good book — because creativity doesn’t stop at the classroom or the lab.
+            {/* My specialty is <strong>Teacher, Researcher, Programmer</strong> —I am passionate about exploring innovative approaches to enhance language understanding and retrieval systems. */}
           </p>
-          <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+          {/* <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
             Beyond teaching & research, I enjoy <em>travelng and reading </em> — bringing creativity to every aspect of my life.
+          </p> */}
+          <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            I earned my Bachelor’s in <strong>Computer Science and Engineering</strong> from <strong>Shahjalal University of Science and Technology (SUST), Bangladesh</strong>, laying the foundation for my journey toward a <strong>Ph.D.</strong> in <strong>Computer Science</strong>.
           </p>
           <p className="text-lg font-semibold text-blue-700 dark:text-blue-400">
             RESEARCH INTERESTS: <span className="font-normal text-gray-800 dark:text-gray-200">
-              Machine Learning (ML), Blockchain Technology (BT), Natural Language Processing (NLP), Large Language Models (LLM)
+              Machine Learning (ML), Blockchain Technology (BT), Natural Language Processing (NLP), Large Language Models (LLM).
             </span>
           </p>
         </div>
